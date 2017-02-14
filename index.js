@@ -74,4 +74,4 @@ app.get('/history', (req, res) => {
   fetchHistory().then(results => res.json(results))
 })
 
-app.listen(5000)
+app.listen(process.env.PORT || 5000)
