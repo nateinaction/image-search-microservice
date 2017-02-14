@@ -9,12 +9,16 @@
     "babel-cli": "^6.22.2",
     "babel-preset-latest": "^6.22.0"
   },
-  "scripts": {
-    "start": "babel-node index.js"
-  },
   "dependencies": {
     "express": "^4.14.1",
     "lokka": "^1.7.0",
     "lokka-transport-http": "^1.6.1"
+  },
+  "scripts": {
+    "start": "babel-node index.js",
+    "build": "babel index.js --out-file prod.js"
+  },
+  "babel": {
+    "presets": ["latest"]
   }
 }
