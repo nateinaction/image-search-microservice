@@ -1,0 +1,20 @@
+{
+  "name": "image-search-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://nateinaction@github.com/nateinaction/image-search-microservice.git",
+  "author": "Nate Gay <nate@ohnate.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-latest": "^6.22.0"
+  },
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "lokka": "^1.7.0",
+    "lokka-transport-http": "^1.6.1"
+  }
+}
